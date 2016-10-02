@@ -4,11 +4,11 @@
 
 int main()
 {
-    int bottl=12;
+    int consumption=12;
     int min=0;
     printf("minutes: ");
     min = get_int();
     int bottles=0;
-    bottles=min*bottl;
+    bottles=min*consumption;
     printf("bottles: %d ",bottles);
 }
