@@ -5,13 +5,15 @@
 
 
 int main(){
-        loop:printf("height : ");
+
         int raz;
         int size=23;
+        while(true){
+            printf("height : ");
        raz=get_int();
-        if(raz>size||raz<0){
-            goto loop;}
-            else{
+        if(raz<=size&&raz>=0){
+            break;}
+        }
         int q;
         int j = 0;
         int i = 0;
@@ -26,11 +28,12 @@ int main(){
         }
         printf("\n");
 
-        }
+
         }
 
 
      return 0;
 
       }
+
 
